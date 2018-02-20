@@ -1,7 +1,7 @@
 versions:
 # spinnaker libs
   fiat: "0.34.0"
-  kork: "1.113.1"
+  kork: "1.118.1"
   scheduledActions: "0.38.0"
   clouddriver: "1.762.0"
   front50: "1.72.0"
@@ -49,6 +49,7 @@ versions:
   slf4j: "{{org.slf4j:slf4j-api}}"
   snappy: "{{org.xerial.snappy:snappy-java}}"
   spectator: "0.57.1"
+  spek: "1.1.5"
   #spock bom: "{{org.spockframework:spock-core}}"
   spock: "1.1-groovy-2.4"
   spring: "{{org.springframework:spring-core}}"
@@ -187,6 +188,7 @@ dependencies:
   korkSwagger: "com.netflix.spinnaker.kork:kork-swagger:${versions.kork}"
   korkHystrix: "com.netflix.spinnaker.kork:kork-hystrix:${versions.kork}"
   korkWeb: "com.netflix.spinnaker.kork:kork-web:${versions.kork}"
+  korkAws: "com.netflix.spinnaker.kork:kork-aws:${versions.kork}"
   scheduledActionsCore: "com.netflix.scheduledactions:scheduled-actions-core:${versions.scheduledActions}"
   scheduledActionsCassandra: "com.netflix.scheduledactions:scheduled-actions-cassandra:${versions.scheduledActions}"
   scheduledActionsClustered: "com.netflix.scheduledactions:scheduled-actions-clustered:${versions.scheduledActions}"
